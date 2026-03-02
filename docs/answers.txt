@@ -1,0 +1,53 @@
+List the date when you went through the Git Lab Tutorials. 
+2/28/2026
+Lisst the dates when you setup the GitHub Account.  If this was some time ago a rough estimate will do.
+November 2025
+
+
+1. PS C:\Users\jackj\OneDrive\Desktop\CEN4020\assignment2> git add .
+PS C:\Users\jackj\OneDrive\Desktop\CEN4020\assignment2> git commit -m "The information files have been updated to describe the current state of the repository."
+[master 22ebc6e] The information files have been updated to describe the current state of the repository.
+ 1 file changed, 5 insertions(+)
+ create mode 100644 docs/status.txt
+PS C:\Users\jackj\OneDrive\Desktop\CEN4020\assignment2> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 14 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 510 bytes | 170.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/jn-sutton/assignment2
+   51b715d..22ebc6e  master -> master
+   
+2. 9
+PS C:\Users\jackj\OneDrive\Desktop\CEN4020\assignment2> git log
+
+3. Sat Feb 28 08:07:46 2026
+PS C:\Users\jackj\OneDrive\Desktop\CEN4020\assignment2> git log --follow README.md
+commit 51b715d84d7904d0e7555e82ff1d4bf41203d320
+Author: Jacqueline Sutton <jacqueline.n.sutton@gmail.com>
+Date:   Sat Feb 28 08:07:46 2026 -0700
+
+    Repository owner information added to README.md
+	
+4. Branches are used for safety to make sure and test code before it is merged back in the main and also for
+isolation so that multiple people can work on a section at once without stepping on each others toes in the main.
+
+5. Git log looks at all the commits made to the branch and main while git status looks at your branch to see if it is 
+up to date with the master.
+
+6. git log -- "Vehicle.h"
+
+7. git log --grep="file"
+
+8. Inheritance is where a subclass can start with attributes passed down by a superclass to promote code reuse. 
+Polymorphism is an attribute that can take different forms in different subclasses and the program picks the correct one when compiling. 
+Encapsulation takes variables and functions into a class and makes them guarded so that only the class can see this data.
+
+9. The dictator and lieutenants go through more stops before pushing to blessed repository. It goes to a lieutenant first to solve conflict then
+to dictator to also oversee what the lieutenants push up. The integration manager is the only stop that the developers push to for review before 
+the blessed repository.
+
+10. It would be more controlled as there would be multiple lieutenants reviewing code before pushing to dictator such as groups of 10 per
+lieutenant rather than 100 developers pushing to an over worked integration manager who may make mistakes.
